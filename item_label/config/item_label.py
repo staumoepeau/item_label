@@ -5,14 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Item Label",
-			"category": "Modules",
+			"module_name": "Item Lable",
 			"color": "red",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"disable_after_onboard": 1,
-			"label": _("Item Label"),
-			"description": "Barcode Label for Custom Items",
-			"onboard_present": 1
+			"label": _("Item Lable")
 		}
 	]

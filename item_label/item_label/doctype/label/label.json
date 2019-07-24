@@ -21,10 +21,39 @@
    "label": "Title"
   },
   {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Data",
+   "label": "Barcode"
+  },
+  {
+   "fieldname": "print_row",
+   "fieldtype": "Select",
+   "label": "Row",
+   "options": "\n1\n2\n3\n4\n5\n6"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
    "fieldname": "barcode_type",
    "fieldtype": "Select",
    "label": "Barcode Type",
    "options": "\nEAN\nUPC-A"
+  },
+  {
+   "fieldname": "print_column",
+   "fieldtype": "Select",
+   "label": "Column",
+   "options": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n10\n12\n14"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "amended_from",
@@ -34,41 +63,12 @@
    "options": "Label",
    "print_hide": 1,
    "read_only": 1
-  },
-  {
-   "fieldname": "barcode",
-   "fieldtype": "Data",
-   "label": "Barcode"
-  },
-  {
-   "fieldname": "column_break_3",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_5",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "section_break_2",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "print_row",
-   "fieldtype": "Select",
-   "label": "Row",
-   "options": "\n1\n2\n3\n4\n5\n6"
-  },
-  {
-   "fieldname": "print_column",
-   "fieldtype": "Select",
-   "label": "Column",
-   "options": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n10\n12\n14"
   }
  ],
  "is_submittable": 1,
- "modified": "2019-07-24 09:00:34.698162",
+ "modified": "2019-07-24 23:21:38.287219",
  "modified_by": "Administrator",
- "module": "Item Lable",
+ "module": "Item Label",
  "name": "Label",
  "owner": "Administrator",
  "permissions": [
